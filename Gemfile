@@ -36,6 +36,8 @@ gem 'glimmer-dsl-opal', '~> 0.29.0'
 gem 'glimmer-dsl-xml', '~> 1.3.1', require: false
 gem 'glimmer-dsl-css', '~> 1.2.1', require: false
 
+gem 'puts_debuggerer', '~> 0.13.3' # (Optional)
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
